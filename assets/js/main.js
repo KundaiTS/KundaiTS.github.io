@@ -350,4 +350,8 @@
                 navbar.classList.remove("scrolled");
             }
         });
+document.getElementById("menu-toggle").addEventListener("click", function () {
+    document.querySelector("#navbar ul").classList.toggle("active");
+});
+
    
